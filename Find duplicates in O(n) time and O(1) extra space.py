@@ -1,6 +1,8 @@
+# Find duplicates in O(n) time and O(1) extra space
+
 class Solution:
     def duplicates(self, arr, n):
-        # We can treat arra as a map since array only contains elements from 0 to n-1
+        # We can treat array as a map since array only contains elements from 0 to n-1
         ans = []
 
         for i in range(n):
